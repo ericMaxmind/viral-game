@@ -164,7 +164,7 @@
                 <li>
                     <a href="/fidelites" class="item">
                         <div class="icon-box bg-primary">
-                            <ion-icon name="home-outline d-none"></ion-icon>
+                            <ion-icon name="home-outline"></ion-icon>
                         </div>
                         <div class="in">
                             Fidelités
@@ -174,7 +174,7 @@
                 <li>
                     <a href="/" class="item">
                         <div class="icon-box bg-primary">
-                            <ion-icon name="cube-outline d-none"></ion-icon>
+                            <ion-icon name="cube-outline"></ion-icon>
                         </div>
                         <div class="in">
                             Coupons
