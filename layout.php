@@ -180,7 +180,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="app-pages.html" class="item">
+                    <a href="/mes-cadeaux" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="layers-outline"></ion-icon>
                         </div>

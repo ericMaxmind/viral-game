@@ -1,7 +1,7 @@
 <?php
 
 $page_path = 'pages/';
-$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits'];
+$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits', '/mes-cadeaux'];
 $page = $_SERVER['REQUEST_URI'];
 
 switch($page) {
@@ -24,6 +24,9 @@ switch($page) {
     /* fidelites page*/
     case $pages[1]:
         $file_name = 'fidelities.php';
+    break;
+    case $pages[6]:
+        $file_name = 'mes-gains.php';
     break;
     
 }
