@@ -9,13 +9,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>Mobilekit Mobile UI Kit</title>
-    <meta name="description" content="Mobilekit HTML Mobile UI Kit">
+    <title>Mrwood</title>
+    <meta name="description" content="Mrwood HTML Mobile UI Kit">
     <meta name="keywords" content="bootstrap 5, mobile template, cordova, phonegap, mobile, html" />
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="manifest" href="__manifest.json">
+
+    @style
     
     <style>
     embed{
@@ -73,9 +75,9 @@
     <div class="appFooter">
         <img src="assets/img/logo.png" alt="icon" class="footer-logo mb-2">
         <div class="footer-title">
-            Copyright © Mobilekit <span class="yearNow"></span>. All Rights Reserved.
+            Copyright © Mrwood <span class="yearNow"></span>. All Rights Reserved.
         </div>
-        <div>Mobilekit is PWA ready Mobile UI Kit Template.</div>
+        <div>Mrwood is PWA ready Mobile UI Kit Template.</div>
         Great way to start your mobile websites and pwa projects.
 
         <div class="mt-2">
@@ -180,6 +182,17 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/spinne-and-win" class="item">
+                        <div class="icon-box bg-primary">
+                            <ion-icon name="layers-outline"></ion-icon>
+                        </div>
+                        <div class="in">
+                            <div>Jouez & gagner</div>
+                            <span class="badge badge-danger d-none">5</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
                     <a href="/mes-cadeaux" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="layers-outline"></ion-icon>
@@ -250,7 +263,7 @@
             <div class="notification-header">
                 <div class="in">
                     <img src="assets/img/icon/72x72.png" alt="image" class="imaged w24">
-                    <strong>Mobilekit</strong>
+                    <strong>Mrwood</strong>
                     <span>just now</span>
                 </div>
                 <a href="#" class="close-button">
@@ -259,9 +272,9 @@
             </div>
             <div class="notification-content">
                 <div class="in">
-                    <h3 class="subtitle">Welcome to Mobilekit</h3>
+                    <h3 class="subtitle">Welcome to Mrwood</h3>
                     <div class="text">
-                        Mobilekit is a PWA ready Mobile UI Kit Template.
+                        Mrwood is a PWA ready Mobile UI Kit Template.
                         Great way to start your mobile websites and pwa projects.
                     </div>
                 </div>
@@ -313,10 +326,12 @@
             
             // dark mode
             document.querySelector("body").classList.add("dark-mode-active");
-            localStorage.setItem("MobilekitDarkMode", "1");
+            localStorage.setItem("MrwoodDarkMode", "1");
         })
 
     </script>
+
+    @script
 </body>
 
 </html>

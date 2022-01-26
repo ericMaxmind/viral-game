@@ -1,8 +1,11 @@
 <?php
 
 $page_path = 'pages/';
-$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits', '/mes-cadeaux'];
+$include_path = 'includes/';
+$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits', '/mes-cadeaux', '/spinne-and-win'];
 $page = $_SERVER['REQUEST_URI'];
+$style = '';
+$script = '';
 
 switch($page) {
     /* acceuil page*/
@@ -25,12 +28,21 @@ switch($page) {
     case $pages[1]:
         $file_name = 'fidelities.php';
     break;
+    /* fidelites page*/
     case $pages[6]:
         $file_name = 'mes-gains.php';
+    break;
+    /* fidelites page*/
+    case $pages[7]:
+        $file_name = 'spinner-game.php';
+        $style_mame = 'spinner-style.php';
+        $script_mame = 'spinner-script.php';
     break;
     
 }
 $content = file_get_contents($page_path.$file_name);
+if(isset($style_mame)) $style = file_get_contents($include_path.$style_mame);
+if(isset($script_mame)) $script = file_get_contents($include_path.$script_mame);
 $layout = file_get_contents('layout.php');
-echo str_replace('@content', $content, $layout);
+echo str_replace(['@content', '@style', '@script'], [$content, $style, $script], $layout);
 

@@ -1,8 +1,8 @@
 <div id="appCapsule">
 
         <div class="header-large-title">
-            <h1 class="title">Discover</h1>
-            <h4 class="subtitle">Welcome to Mobilekit</h4>
+            <h1 class="title">Mrwood</h1>
+            <h4 class="subtitle">Apropos de votre restaurant</h4>
         </div>
 
         <div class="section full mt-3 mb-3">
