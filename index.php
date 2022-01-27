@@ -2,7 +2,7 @@
 
 $page_path = 'pages/';
 $include_path = 'includes/';
-$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits', '/mes-cadeaux', '/spinne-and-win'];
+$pages = ['/', '/fidelites', '/restaurant', '/nous-localisez', '/jouez-et-gagnez', '/nos-produits', '/mes-cadeaux', '/spinne-and-win', '/soldes'];
 $page = $_SERVER['REQUEST_URI'];
 $style = '';
 $script = '';
@@ -32,11 +32,14 @@ switch($page) {
     case $pages[6]:
         $file_name = 'mes-gains.php';
     break;
-    /* fidelites page*/
+    /* spinner game page*/
     case $pages[7]:
         $file_name = 'spinner-game.php';
         $style_mame = 'spinner-style.php';
         $script_mame = 'spinner-script.php';
+    break;
+    case $pages[8]:
+        $file_name = 'soldes.php';
     break;
     
 }

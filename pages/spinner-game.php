@@ -1,10 +1,9 @@
 <div id="appCapsule">
 
     <div class="header-large-title">
-        <h1 class="title">Mrwood</h1>
-        <h4 class="subtitle">Apropos de votre restaurant</h4>
+        <h1 class="title">Jouez et gagnez</h1>
+        <h4 class="subtitle d-none">Apropos de votre restaurant</h4>
     </div>
-
     <div class="section full mt-3 mb-3">
         <div class="card">
             <div class="card-body">
@@ -41,12 +40,49 @@
 
                     <center>
                         <h6 style="margin-top: 45px;">
-                            <br>
-                            <font color="red" style="visibility: hidden;">Vous avez 5 tentatatives de jouer et gagner
+                            <br><br>
+                            <font color="#FFF" style="visibility:;">Vous avez 5 tentatatives de jouer <br> 3 de gagner
                                 par jour.</font>
                         </h6>
                     </center>
                 </div>
             </div>
         </div>
+        <!-- Default Action Sheet Inset -->
+        <div class="offcanvas offcanvas-bottom action-sheet inset" tabindex="-1" id="actionSheetDefaultInset">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Action Sheet Title</h5>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="action-button-list">
+                    <li>
+                        <a href="#" class="btn btn-list text-primary" data-bs-dismiss="offcanvas">
+                            <span>Open</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-list" data-bs-dismiss="offcanvas">
+                            <span>Delete</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-list" data-bs-dismiss="offcanvas">
+                            <span>Copy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-list" data-bs-dismiss="offcanvas">
+                            <span>Share</span>
+                        </a>
+                    </li>
+                    <li class="action-divider"></li>
+                    <li>
+                        <a href="#" class="btn btn-list text-danger" data-bs-dismiss="offcanvas">
+                            <span>Close</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- * Default Action Sheet Inset -->
     </div>

@@ -845,8 +845,16 @@ button:hover, button:active, button:focus {
   background: transparent !important;
 }
 
-.footer-logo {
+/* .footer-logo {
   height: 16px;
+} */
+
+.footer-logo {
+  height: 3em;
+}
+
+.showSweetAlert {
+  background: #0c1624 !important;
 }
 
 .footer-link {
@@ -8762,8 +8770,12 @@ body.dark-mode-active .btn-outline-dark:hover, body.dark-mode-active .btn-outlin
   background: rgba(0, 0, 0, 0.2) !important;
 }
 
-body.dark-mode-active .card {
+/* body.dark-mode-active .card {
   background: #0F1C2F;
+} */
+
+body.dark-mode-active .card {
+  background: #0c1624;
 }
 
 body.dark-mode-active .card .card-title {

@@ -43,7 +43,7 @@
             </a>
         </div>
         <div class="pageTitle">
-            Discover
+            <img src="https://mrwood.ma/wp-content/uploads/2020/08/mrwoodlogo-e1603282016615.png" alt="icon" class="footer-logo">
         </div>
         <div class="right">
             <a href="#" class="headerButton toggle-searchbox">
@@ -73,21 +73,21 @@
     @content
     <!-- app footer -->
     <div class="appFooter">
-        <img src="assets/img/logo.png" alt="icon" class="footer-logo mb-2">
+        <img src="https://mrwood.ma/wp-content/uploads/2020/08/mrwoodlogo-e1603282016615.png" alt="icon" class="footer-logo mb-2 d-none">
         <div class="footer-title">
             Copyright © Mrwood <span class="yearNow"></span>. All Rights Reserved.
         </div>
-        <div>Mrwood is PWA ready Mobile UI Kit Template.</div>
-        Great way to start your mobile websites and pwa projects.
+        <div class="d-none">Mrwood is PWA ready Mobile UI Kit Template.</div>
+        <div class="d-none_">Great way to start your mobile websites and pwa projects.</div>
 
         <div class="mt-2">
             <a href="#" class="btn btn-icon btn-sm btn-facebook">
                 <ion-icon name="logo-facebook"></ion-icon>
             </a>
-            <a href="#" class="btn btn-icon btn-sm btn-twitter">
+            <a href="#" class="btn btn-icon btn-sm btn-twitter d-none">
                 <ion-icon name="logo-twitter"></ion-icon>
             </a>
-            <a href="#" class="btn btn-icon btn-sm btn-linkedin">
+            <a href="#" class="btn btn-icon btn-sm btn-linkedin d-none">
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
             <a href="#" class="btn btn-icon btn-sm btn-instagram">
@@ -96,7 +96,7 @@
             <a href="#" class="btn btn-icon btn-sm btn-whatsapp">
                 <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
-            <a href="#" class="btn btn-icon btn-sm btn-secondary goTop">
+            <a href="#" class="btn btn-icon btn-sm btn-secondary goTop d-none">
                 <ion-icon name="arrow-up-outline"></ion-icon>
             </a>
         </div>
@@ -193,12 +193,23 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/soldes" class="item">
+                        <div class="icon-box bg-primary">
+                            <ion-icon name="layers-outline"></ion-icon>
+                        </div>
+                        <div class="in">
+                            <div>Sodes</div>
+                            <span class="badge badge-danger d-none">5</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
                     <a href="/mes-cadeaux" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="layers-outline"></ion-icon>
                         </div>
                         <div class="in">
-                            <div>Mes cadeaux</div>
+                            <div>Mes gains</div>
                             <span class="badge badge-danger">5</span>
                         </div>
                     </a>
@@ -220,7 +231,7 @@
                             <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
                         </div>
                         <div class="in">
-                            <div>Nos produits</div>
+                            <div>Commandez en ligne</div>
                             <span class="badge badge-danger d-none">5</span>
                         </div>
                     </a>
@@ -236,6 +247,17 @@
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="/logout" class="item">
+                        <div class="icon-box bg-primary">
+                            <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                        </div>
+                        <div class="in">
+                            <div>Déconnexion</div>
+                            <span class="badge badge-danger d-none">5</span>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- sidebar buttons -->
@@ -243,13 +265,13 @@
             <a href="#" class="button">
                 <ion-icon name="person-outline"></ion-icon>
             </a>
-            <a href="#" class="button">
+            <a href="#" class="button d-none">
                 <ion-icon name="archive-outline"></ion-icon>
             </a>
-            <a href="#" class="button">
+            <a href="#" class="button d-none">
                 <ion-icon name="settings-outline"></ion-icon>
             </a>
-            <a href="#" class="button">
+            <a href="#" class="button d-none">
                 <ion-icon name="log-out-outline"></ion-icon>
             </a>
         </div>
