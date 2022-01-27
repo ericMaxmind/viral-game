@@ -135,7 +135,7 @@
     #win7,
     #win8 {
         width: 65px;
-        left: 42%;
+        left: 41%;
         top: 29%;
     }
 }
@@ -155,7 +155,7 @@
     #win7,
     #win8 {
         width: 65px;
-        left: 42.5%;
+        left: 41.7%;
         top: 32%;
     }
 }
@@ -175,7 +175,7 @@
     #win7,
     #win8 {
         width: 65px;
-        left: 42.5%;
+        left: 41.5%;
         top: 33.5%;
     }
 }
@@ -196,7 +196,7 @@
     #win8 {
         width: 65px !important;
         left: 42% !important;
-        top: 36% !important;
+        top: 34% !important;
     }
 }
 
